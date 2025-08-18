@@ -37,4 +37,8 @@ public class CuentaAhorros extends Cuenta {
                "\nComisión mensual: " + comisionMensual +
                "\nNúmero de transacciones: " + (numeroConsignaciones + numeroRetiros);
     }
+
+    public boolean isCuentaActiva() {
+        return this.cuentaActiva;
+    }
 }
